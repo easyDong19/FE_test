@@ -1,0 +1,81 @@
+.title {
+  font-size: 36px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #3d3d3d;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion_wrapper {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfdfdf;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.listItem {
+  display: flex;
+  color: #3d3d3d;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
+  border-top: 1px solid #dfdfdf;
+  padding: 20px 30px 20px 30px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.list_title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.toggle_menu {
+  display: none;
+  padding: 24px 24px 20px 24px;
+  box-sizing: border-box;
+}
+.isActive .toggle_menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.time_list {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px 25px 0px;
+}
+
+.time {
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: -0.6px;
+  color: #555555;
+  display: flex;
+  gap: 20px;
+}
+
+.time > div {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sky {
+  color: #8b8b8b;
+  font-size: 20px;
+  margin-bottom: 6px;
+}

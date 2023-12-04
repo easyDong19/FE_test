@@ -1,0 +1,23 @@
+.main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.earth_img {
+  width: 68px;
+  height: 51px;
+}
+
+.main_title {
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -0.6px;
+  font-weight: 900;
+}
+
+.main_header {
+  margin-top: 43px;
+  margin-bottom: 40px;
+}

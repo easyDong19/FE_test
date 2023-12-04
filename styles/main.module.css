@@ -1,0 +1,77 @@
+.header {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  position: relative;
+  margin-top: 101px;
+}
+
+.main_title {
+  font-size: 82px;
+  color: #3d3d3d;
+  line-height: 90.2px;
+  font-weight: 900;
+  letter-spacing: -0.6px;
+  position: relative;
+}
+
+.main_title span {
+  color: #ff0045;
+}
+
+.sub_title {
+  font-size: 12px;
+  line-height: 24px;
+  color: #8b8b8b;
+  font-weight: 400;
+}
+
+.btn_list_wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.btn_list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  box-sizing: border-box;
+  color: #ff0045;
+  background-color: #ffffff;
+  border: 1px solid #ff0045;
+  border-radius: 6px;
+  padding: 14px 50px 14px 50px;
+  display: flex;
+  height: 40px;
+  letter-spacing: -0.6px;
+  font-weight: 400;
+  font-size: 16px;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #b70055;
+  background-color: #ffd2cc;
+  border: 1px solid #b70055;
+}
+
+.btn:active {
+  color: #ff0045;
+  background-color: #ffaba1;
+  border: 1px solid ##ff0045;
+}
+
+.earth_img {
+  position: relative;
+  margin-top: 66px;
+}
